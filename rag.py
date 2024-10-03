@@ -4,7 +4,6 @@ import os
 from dotenv import load_dotenv
 from langchain_community.document_loaders import GithubFileLoader
 
-
 load_dotenv()
 github_token = os.getenv("GITHUB_PERSONAL_ACCESS_TOKEN")
 
