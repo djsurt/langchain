@@ -14,7 +14,7 @@ loader = GithubFileLoader(
     github_api_url="https://api.github.com",
     file_filter=lambda file_path: file_path.endswith(
         ".md"
-    ),  # load all markdowns files.
+    ),  # loads all markdowns files.
 )
 documents = loader.load()
 
