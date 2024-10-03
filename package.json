@@ -1,0 +1,11 @@
+{
+  "name": "langchain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ModelEarth/langchain.git",
+  "author": "Pranathi Vaddela <pranathivaddela12@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "langchain": "^0.3.2"
+  }
+}
