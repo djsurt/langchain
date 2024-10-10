@@ -7,12 +7,14 @@
 </head>
 <body>
     <h1>LangChain Retrieval Augmented Generation</h1>
-    <input type="text" id="query" placeholder="Enter your query">
-    <button id="submit">Submit</button>
-    <div id="result"></div>
+    <input type="text" id="messageInput" placeholder="Enter message" />
+    <button id="translateButton" onclick="executeStatement()">Translate</button>
+    <p id="test-text"></p>
+
+    <p id="output"></p> <!-- Element to display result -->
 
     <script src="https://cdn.jsdelivr.net/npm/langchain@latest/dist/langchain.min.js"></script>
-    <script src="/script.js"></script>
+    <script src="./langchain.js"></script>
 </body>
 </html>
 
